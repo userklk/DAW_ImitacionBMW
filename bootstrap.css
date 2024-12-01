@@ -1,0 +1,278 @@
+.body {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+
+}
+
+video {
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 110%;
+    z-index: -1;
+}
+
+
+
+.navbar {
+    background-color: transparent !important;
+    color: aliceblue;
+    border-bottom: 2px solid white;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left:3% ;
+    margin-right:3% ;
+
+}
+
+.nav-link {
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 15spx;
+}
+
+.logo-bmw {
+    border-radius: 100%;
+    height: 60px;
+    zoom: 1;
+}
+
+.elementos-lado-primer {
+    color: aliceblue;
+    margin-top: 10%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.m5-grande {
+    color: aliceblue;
+    font-size: 250px;
+    margin-top: -100px;
+    margin-bottom: -60px;
+
+}
+
+.div-botones {
+    padding-top: 2%;
+    display: flex;
+    gap: 20px;
+}
+
+
+.encuentra-tu-bmw {
+    margin-top: 15%;
+    color: black;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+}
+
+.row1 {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.textos-encuentratyBWM {
+    padding-top: 5%;
+    padding-bottom: 7%;
+    font-size: 25px;
+}
+
+.btns {
+    background-color: transparent;
+    color: black;
+    border-radius: 3px;
+
+}
+
+.btns:hover {
+    border: 2px solid black;
+    border-radius: 3px;
+    background-color: transparent;
+    color: black;
+
+}
+
+.section3 {
+    background-image: url(pexels-photo-10573462.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    color: aliceblue;
+}
+
+.textosSection3 {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 5%;
+    padding-top: 27%;
+    padding-bottom: 9%;
+
+}
+
+.electricos-Texto {
+    font-size: 40px;
+}
+
+.btndispoelect {
+    border-radius: 3px;
+    border: 1px solid white;
+    color: aliceblue;
+    background-color: transparent;
+
+}
+
+.textos-electricos2 {
+    font-size: 20px;
+}
+
+.boton-vehiculos-dispo {
+    text-align: center;
+    padding: 15px;
+    color: aliceblue;
+    text-decoration: none;
+    border: 3px solid white;
+    margin-right: 70%;
+}
+
+.boton-vehiculos-dispo:hover {
+
+    text-align: center;
+    padding: 15px;
+    color: aliceblue;
+    text-decoration: none;
+    border: 4px solid white;
+    margin-right: 70%;
+}
+
+.flex-prueba-bwm {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 4%;
+    padding-bottom: 10%;
+    padding-left: 4%;
+    gap: 40px;
+}
+
+.titulo-prueba-bmw {
+    font-size: 40px;
+}
+
+.textos-prueba-bmw {
+   
+    margin-right: 10%;
+
+}
+
+.imagen-pareja {
+    width: 900px;
+    height: auto;
+
+}
+
+.fex-tu-modelo {
+    padding-top: 3%;
+    padding-bottom: 3%;
+
+    position: relative;
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
+    margin-left: 4%;
+    margin-right: 4%;
+    border-top: 1px solid gray;
+}
+
+.modelos-flex-modelosS {
+    font-weight: bold;
+}
+
+.footer-bmw {
+
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-weight: 600;
+    position: relative;
+    color: black;
+    background-color: aliceblue;
+}
+
+.text-center {
+    text-align: left;
+}
+
+.letrasfinas {
+    font-weight: lighter;
+    font-size: 13px;
+    color: black;
+}
+
+.bloque-textos-tae {
+    margin: 1% 5% 0% 5%;
+}
+
+.texto-tae {
+    font-weight: light;
+    color: gray;
+    font-size: 15px;
+}
+
+.boton-prueba-tu-bmw {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.boton-prueba-tu-bmw:hover {
+    color: blue;
+    cursor: pointer;
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.bloque-final{
+    display: flex;
+    gap: 40PX;
+    margin: 2%;
+    
+}
+.preguntas-frecuentes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    gap: 18px;
+}
+.arroba-final{
+    font-weight: lighter;
+    font-size: 22px;
+}
+.tipo-letra-qa{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+}
+.tipo-letra-qa:hover{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 12px;
+    text-decoration: none;
+    color: blue;
+}
+
